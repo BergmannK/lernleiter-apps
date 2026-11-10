@@ -1,0 +1,23 @@
+[
+ {
+  "pfad": "zr100/4-4.html",
+  "lernleiter": "ZR 100",
+  "milestone": 4,
+  "karte": "4.4",
+  "titel": "Errate die Zahl"
+ },
+ {
+  "pfad": "zr100/5-2.html",
+  "lernleiter": "ZR 100",
+  "milestone": 5,
+  "karte": "5.2",
+  "titel": "Zehner-Freunde"
+ },
+ {
+  "pfad": "zr1000b/3-2.html",
+  "lernleiter": "ZR 1000 Teil B",
+  "milestone": 3,
+  "karte": "3.2",
+  "titel": "Mit Stopp rechnen"
+ }
+]

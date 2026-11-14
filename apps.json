@@ -1,10 +1,73 @@
 [
  {
+  "pfad": "zr100/1-2.html",
+  "lernleiter": "ZR 100",
+  "milestone": 1,
+  "karte": "1.2",
+  "titel": "Zehner-Sammler"
+ },
+ {
+  "pfad": "zr100/1-3.html",
+  "lernleiter": "ZR 100",
+  "milestone": 1,
+  "karte": "1.3",
+  "titel": "Schätzen und bündeln"
+ },
+ {
+  "pfad": "zr100/2-2.html",
+  "lernleiter": "ZR 100",
+  "milestone": 2,
+  "karte": "2.2",
+  "titel": "Hören – legen – schreiben"
+ },
+ {
+  "pfad": "zr100/2-3.html",
+  "lernleiter": "ZR 100",
+  "milestone": 2,
+  "karte": "2.3",
+  "titel": "Blitzblick"
+ },
+ {
+  "pfad": "zr100/2-4.html",
+  "lernleiter": "ZR 100",
+  "milestone": 2,
+  "karte": "2.4",
+  "titel": "Zahlen-Quartett"
+ },
+ {
+  "pfad": "zr100/2-5.html",
+  "lernleiter": "ZR 100",
+  "milestone": 2,
+  "karte": "2.5",
+  "titel": "Pärchen am Hunderterfeld"
+ },
+ {
+  "pfad": "zr100/4-3.html",
+  "lernleiter": "ZR 100",
+  "milestone": 4,
+  "karte": "4.3",
+  "titel": "Welche Zahl ist größer?"
+ },
+ {
   "pfad": "zr100/4-4.html",
   "lernleiter": "ZR 100",
   "milestone": 4,
   "karte": "4.4",
   "titel": "Errate die Zahl"
+ },
+ {
+  "pfad": "zr100/4-5.html",
+  "lernleiter": "ZR 100",
+  "milestone": 4,
+  "karte": "4.5",
+  "titel": "Zahlenrätsel"
+ },
+ {
+  "pfad": "zr100/4-7.html",
+  "lernleiter": "ZR 100",
+  "milestone": 4,
+  "karte": "4.7",
+  "titel": "Dazwischen?"
  },
  {
   "pfad": "zr100/5-2.html",
@@ -14,10 +77,269 @@
   "titel": "Zehner-Freunde"
  },
  {
+  "pfad": "zr100/5-3.html",
+  "lernleiter": "ZR 100",
+  "milestone": 5,
+  "karte": "5.3",
+  "titel": "Zehnerzahlen zur 100"
+ },
+ {
+  "pfad": "zr100/6-2.html",
+  "lernleiter": "ZR 100",
+  "milestone": 6,
+  "karte": "6.2",
+  "titel": "Nur die Zehner ändern sich"
+ },
+ {
+  "pfad": "zr100/7-2.html",
+  "lernleiter": "ZR 100",
+  "milestone": 7,
+  "karte": "7.2",
+  "titel": "Domino"
+ },
+ {
+  "pfad": "zr100/7p-2.html",
+  "lernleiter": "ZR 100",
+  "milestone": 75,
+  "karte": "7+.2",
+  "titel": "Drei passen zusammen"
+ },
+ {
+  "pfad": "zr100/7p-3.html",
+  "lernleiter": "ZR 100",
+  "milestone": 75,
+  "karte": "7+.3",
+  "titel": "Dazulegen – wegnehmen"
+ },
+ {
+  "pfad": "zr100/10-3.html",
+  "lernleiter": "ZR 100",
+  "milestone": 10,
+  "karte": "10.3",
+  "titel": "Abbau-Spiel"
+ },
+ {
+  "pfad": "zr100/13-1.html",
+  "lernleiter": "ZR 100",
+  "milestone": 13,
+  "karte": "13.1",
+  "titel": "Mein Weg – dein Weg"
+ },
+ {
+  "pfad": "zr100/13-2.html",
+  "lernleiter": "ZR 100",
+  "milestone": 13,
+  "karte": "13.2",
+  "titel": "Welcher Weg passt?"
+ },
+ {
+  "pfad": "zr1000a/1-2.html",
+  "lernleiter": "ZR 1000 Teil A",
+  "milestone": 1,
+  "karte": "1.2",
+  "titel": "Vom Zehner zum Tausender"
+ },
+ {
+  "pfad": "zr1000a/1-3.html",
+  "lernleiter": "ZR 1000 Teil A",
+  "milestone": 1,
+  "karte": "1.3",
+  "titel": "Hunderter-Sammler"
+ },
+ {
+  "pfad": "zr1000a/1-4.html",
+  "lernleiter": "ZR 1000 Teil A",
+  "milestone": 1,
+  "karte": "1.4",
+  "titel": "Schätzen und bündeln"
+ },
+ {
+  "pfad": "zr1000a/2-2.html",
+  "lernleiter": "ZR 1000 Teil A",
+  "milestone": 2,
+  "karte": "2.2",
+  "titel": "Zahlen-Diktat"
+ },
+ {
+  "pfad": "zr1000a/2-3.html",
+  "lernleiter": "ZR 1000 Teil A",
+  "milestone": 2,
+  "karte": "2.3",
+  "titel": "Hohe Hausnummer"
+ },
+ {
+  "pfad": "zr1000a/2-4.html",
+  "lernleiter": "ZR 1000 Teil A",
+  "milestone": 2,
+  "karte": "2.4",
+  "titel": "Blitzblick"
+ },
+ {
+  "pfad": "zr1000a/3-2.html",
+  "lernleiter": "ZR 1000 Teil A",
+  "milestone": 3,
+  "karte": "3.2",
+  "titel": "Zahlwort-Memory"
+ },
+ {
+  "pfad": "zr1000a/3-3.html",
+  "lernleiter": "ZR 1000 Teil A",
+  "milestone": 3,
+  "karte": "3.3",
+  "titel": "Zahlen-Telefon"
+ },
+ {
+  "pfad": "zr1000a/4-3.html",
+  "lernleiter": "ZR 1000 Teil A",
+  "milestone": 4,
+  "karte": "4.3",
+  "titel": "Abbau-Spiel"
+ },
+ {
+  "pfad": "zr1000a/5-3.html",
+  "lernleiter": "ZR 1000 Teil A",
+  "milestone": 5,
+  "karte": "5.3",
+  "titel": "Tausenderbuch-Suche"
+ },
+ {
+  "pfad": "zr1000a/6-3.html",
+  "lernleiter": "ZR 1000 Teil A",
+  "milestone": 6,
+  "karte": "6.3",
+  "titel": "Wer kennt den Nachbarn?"
+ },
+ {
+  "pfad": "zr1000a/7-3.html",
+  "lernleiter": "ZR 1000 Teil A",
+  "milestone": 7,
+  "karte": "7.3",
+  "titel": "Wo bin ich?"
+ },
+ {
+  "pfad": "zr1000a/8-2.html",
+  "lernleiter": "ZR 1000 Teil A",
+  "milestone": 8,
+  "karte": "8.2",
+  "titel": "Wer hat mehr?"
+ },
+ {
+  "pfad": "zr1000a/8-3.html",
+  "lernleiter": "ZR 1000 Teil A",
+  "milestone": 8,
+  "karte": "8.3",
+  "titel": "Zahlen ordnen"
+ },
+ {
+  "pfad": "zr1000b/1-2.html",
+  "lernleiter": "ZR 1000 Teil B",
+  "milestone": 1,
+  "karte": "1.2",
+  "titel": "Hunderter-Päckchen"
+ },
+ {
+  "pfad": "zr1000b/1-3.html",
+  "lernleiter": "ZR 1000 Teil B",
+  "milestone": 1,
+  "karte": "1.3",
+  "titel": "Hunderter-Domino"
+ },
+ {
+  "pfad": "zr1000b/2-2.html",
+  "lernleiter": "ZR 1000 Teil B",
+  "milestone": 2,
+  "karte": "2.2",
+  "titel": "Kleine Aufgabe hilft"
+ },
+ {
+  "pfad": "zr1000b/2-3.html",
+  "lernleiter": "ZR 1000 Teil B",
+  "milestone": 2,
+  "karte": "2.3",
+  "titel": "Aufgaben-Tandem"
+ },
+ {
+  "pfad": "zr1000b/2-4.html",
+  "lernleiter": "ZR 1000 Teil B",
+  "milestone": 2,
+  "karte": "2.4",
+  "titel": "Glückswürfeln"
+ },
+ {
   "pfad": "zr1000b/3-2.html",
   "lernleiter": "ZR 1000 Teil B",
   "milestone": 3,
   "karte": "3.2",
   "titel": "Mit Stopp rechnen"
+ },
+ {
+  "pfad": "zr1000b/3-3.html",
+  "lernleiter": "ZR 1000 Teil B",
+  "milestone": 3,
+  "karte": "3.3",
+  "titel": "Zehner-Popcorn"
+ },
+ {
+  "pfad": "zr1000b/3-4.html",
+  "lernleiter": "ZR 1000 Teil B",
+  "milestone": 3,
+  "karte": "3.4",
+  "titel": "Rückwärts-Rennen"
+ },
+ {
+  "pfad": "zr1000b/4-2.html",
+  "lernleiter": "ZR 1000 Teil B",
+  "milestone": 4,
+  "karte": "4.2",
+  "titel": "Erst Zehner, dann Einer"
+ },
+ {
+  "pfad": "zr1000b/4-3.html",
+  "lernleiter": "ZR 1000 Teil B",
+  "milestone": 4,
+  "karte": "4.3",
+  "titel": "Zahlen-Duell"
+ },
+ {
+  "pfad": "zr1000b/5-2.html",
+  "lernleiter": "ZR 1000 Teil B",
+  "milestone": 5,
+  "karte": "5.2",
+  "titel": "Mit Stopp rechnen"
+ },
+ {
+  "pfad": "zr1000b/5-3.html",
+  "lernleiter": "ZR 1000 Teil B",
+  "milestone": 5,
+  "karte": "5.3",
+  "titel": "Stopp-Rennen"
+ },
+ {
+  "pfad": "zr1000b/6-2.html",
+  "lernleiter": "ZR 1000 Teil B",
+  "milestone": 6,
+  "karte": "6.2",
+  "titel": "Stellenweise rechnen"
+ },
+ {
+  "pfad": "zr1000b/6-3.html",
+  "lernleiter": "ZR 1000 Teil B",
+  "milestone": 6,
+  "karte": "6.3",
+  "titel": "Rechen-Memory"
+ },
+ {
+  "pfad": "zr1000b/7-2.html",
+  "lernleiter": "ZR 1000 Teil B",
+  "milestone": 7,
+  "karte": "7.2",
+  "titel": "Hilfsaufgabe"
+ },
+ {
+  "pfad": "zr1000b/7-3.html",
+  "lernleiter": "ZR 1000 Teil B",
+  "milestone": 7,
+  "karte": "7.3",
+  "titel": "Rechen-Rennen"
  }
 ]

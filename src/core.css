@@ -1,0 +1,83 @@
+@font-face{font-family:"Schul";src:url(FONT_REGULAR) format("woff2");font-weight:400}
+@font-face{font-family:"Schul";src:url(FONT_BOLD) format("woff2");font-weight:700}
+:root{
+  --blau:#1E5BD8; --rot:#E02020; --gruen:#2E7D32; --ink:#222; --grau:#E6E6E6; --hgrau:#F4F4F4;
+  --gelb:#FFD54A; --papier:#FFFDF7; --karte:#FFF6D5; --ms:#1E5BD8;
+  --r:18px;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;height:100%}
+body{font-family:"Schul",Arial,sans-serif;color:var(--ink);background:var(--papier);font-size:22px;line-height:1.35;
+  touch-action:manipulation;-webkit-user-select:none;user-select:none;overflow-x:hidden}
+button{font-family:inherit;font-size:inherit;color:inherit;cursor:pointer;touch-action:manipulation}
+.blau{color:var(--blau)} .rot{color:var(--rot)} .gruen{color:var(--gruen)}
+b,strong{font-weight:700}
+
+/* Kopf */
+.kopf{display:flex;align-items:center;gap:14px;padding:10px 16px;background:#fff;border-bottom:3px solid var(--ms);position:sticky;top:0;z-index:5}
+.kopf .nr{min-width:64px;height:48px;border-radius:12px;background:var(--ms);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:22px;padding:0 10px}
+.kopf h1{font-size:26px;margin:0;flex:1;line-height:1.1}
+.kopf h1 small{display:block;font-size:15px;font-weight:400;color:#666}
+.rund{width:52px;height:52px;border-radius:50%;border:2px solid #bbb;background:#fff;display:flex;align-items:center;justify-content:center;padding:0;flex:none}
+.rund svg{width:30px;height:30px}
+.rund.an{background:#E8F0FF;border-color:var(--blau)}
+
+main{max-width:1100px;margin:0 auto;padding:16px 16px 240px}
+
+/* Startseite einer App */
+.start{display:flex;flex-direction:column;gap:18px;align-items:center;text-align:center;padding-top:10px}
+.schritte{background:#fff;border:2px solid var(--grau);border-radius:var(--r);padding:14px 20px;text-align:left;max-width:760px;width:100%}
+.schritte ol{margin:6px 0 0;padding-left:30px} .schritte li{margin:6px 0}
+.modi{display:flex;gap:20px;flex-wrap:wrap;justify-content:center}
+.modus{width:300px;min-height:200px;border-radius:24px;border:3px solid var(--ms);background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;font-size:24px;font-weight:700;padding:16px}
+.modus:active{transform:scale(.97)}
+.modus svg{height:96px}
+
+/* Robo + Sprechblase */
+.robozeile{display:flex;align-items:flex-start;gap:12px;margin:6px 0 14px}
+.robozeile .figur{width:84px;flex:none}
+.blase{position:relative;background:#fff;border:2px solid #9aa;border-radius:18px;padding:12px 16px;flex:1;min-height:60px;display:flex;align-items:center;gap:12px}
+.blase:before{content:"";position:absolute;left:-12px;top:22px;border:10px solid transparent;border-right-color:#9aa;border-left:0}
+.blase .txt{flex:1}
+.blase .rund{width:46px;height:46px}
+
+/* Wer ist dran */
+.dran{display:inline-flex;align-items:center;gap:10px;padding:6px 16px;border-radius:30px;background:#fff;border:2px solid var(--grau);font-weight:700}
+.dran .zeichen{font-size:28px;line-height:1}
+
+/* Knöpfe */
+.btn{border:none;border-radius:16px;padding:14px 26px;font-weight:700;font-size:24px;background:var(--ms);color:#fff;min-height:60px}
+.btn.hell{background:#fff;color:var(--ink);border:2px solid #bbb}
+.btn.ok{background:var(--gruen)} .btn.nein{background:#fff;border:3px solid var(--rot);color:var(--rot)}
+.btn:active{transform:scale(.97)}
+.btn:disabled{opacity:.4}
+.knopfreihe{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin:14px 0}
+
+/* Overlay (Sprich so, Hilfe, Ende) */
+.overlay{position:fixed;inset:0;background:rgba(30,30,40,.45);display:flex;align-items:center;justify-content:center;z-index:20;padding:16px}
+.dialog{background:#fff;border-radius:24px;max-width:720px;width:100%;padding:22px 26px;box-shadow:0 10px 40px rgba(0,0,0,.25);max-height:94vh;overflow:auto}
+.dialog h2{margin:0 0 10px;font-size:26px;display:flex;align-items:center;gap:10px}
+.sprich{background:#EAF6EA;border:3px solid var(--gruen);border-radius:20px;padding:16px 20px;font-size:28px;display:flex;align-items:center;gap:14px}
+.sprich .txt{flex:1}
+.sprich-titel{color:var(--gruen);font-weight:700;display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.overlay.unten{align-items:flex-end;background:rgba(30,30,40,.12)}
+.overlay.unten .dialog{margin-bottom:8px}
+.hinweis{background:#FFF7DD;border:3px solid #E7B400;border-radius:20px;padding:14px 18px}
+
+/* Torten */
+.torten{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin:16px 0}
+.torte{background:#fff;border:3px solid var(--grau);border-radius:18px;padding:10px;width:140px;display:flex;flex-direction:column;align-items:center;gap:6px;font-size:18px}
+.torte.wahl{border-color:var(--gruen);background:#EAF6EA}
+.torte svg{width:96px;height:96px}
+
+/* Zahlentastatur */
+.tasten{display:grid;grid-template-columns:repeat(5,72px);gap:10px;justify-content:center;margin:12px 0}
+.tasten button{height:64px;border-radius:14px;border:2px solid #bbb;background:#fff;font-size:30px;font-weight:700}
+.tasten button.weg{font-size:22px}
+.feld{display:inline-block;min-width:110px;height:64px;border:3px solid var(--ink);border-radius:12px;background:#fff;text-align:center;font-size:36px;font-weight:700;line-height:58px;padding:0 8px;vertical-align:middle}
+.feld.aktiv{border-color:var(--blau);box-shadow:0 0 0 4px #CFE0FF}
+.feld.richtig{border-color:var(--gruen);color:var(--gruen)}
+.feld.falsch{border-color:var(--rot);animation:wackel .4s}
+@keyframes wackel{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.versteckt{display:none!important}
+@media (max-width:700px){body{font-size:19px}.modus{width:100%}.kopf h1{font-size:21px}}

@@ -28,7 +28,7 @@ def norm(s):
     s = re.sub(r'<br\s*/?>', ' ', s, flags=re.I)
     s = re.sub(r'<[^>]+>', '', s).replace('&nbsp;', ' ')
     s = re.sub(r'[„“"«»]', '', s)
-    s = s.replace('–', ' minus ').replace('+', ' plus ').replace('=', ' ist ').replace('|', ' ')
+    s = s.replace('–', ' minus ').replace('−', ' minus ').replace('+', ' plus ').replace('=', ' ist ').replace('|', ' ')
     return re.sub(r'\s+', ' ', s).strip()
 
 def saetze(s):
@@ -61,9 +61,15 @@ def zahlwort(n, im_wort=False):
         return 'eintausend'
     raise ValueError(n)
 
+BUCHSTABE = {'H': 'Ha', 'Z': 'Zett', 'E': 'Eh', 'T': 'Teh'}   # Stellenwert-Abkürzungen als Buchstabennamen (nicht „Hey“)
+_RAND = r'(?<![\wÄÖÜäöüß])'
+def buchstaben(s):
+    return re.sub(_RAND + r'([HZET])(?![\wÄÖÜäöüß])', lambda m: BUCHSTABE[m.group(1)], s)
+
 def tts_text(s):
     """Text für die Sprachausgabe: Zahlen als Wörter, keine Ausrufezeichen (ruhiger)."""
     s = re.sub(r'\d+', lambda m: zahlwort(int(m.group())), s)
+    s = buchstaben(s)
     return s.replace('!', '.')
 
 def fname(voice, art, k):

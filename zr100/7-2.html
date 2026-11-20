@@ -162,16 +162,8 @@ const LL = (() => {
   const STILL = 'data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAIA+AAACABAAZGF0YQAAAAA=';
   document.addEventListener('pointerdown', function entsperren() { if (!player.src) { player.src = STILL; player.play().catch(() => {}); } document.removeEventListener('pointerdown', entsperren); });
   // Computerstimme (nur wenn eine Aufnahme fehlt): Zahlen als Wörter, sonst liest sie „47.“ als „siebenundvierzigste“
-  const EIN = ['null', 'eins', 'zwei', 'drei', 'vier', 'fünf', 'sechs', 'sieben', 'acht', 'neun', 'zehn', 'elf', 'zwölf', 'dreizehn', 'vierzehn', 'fünfzehn', 'sechzehn', 'siebzehn', 'achtzehn', 'neunzehn'];
-  const ZEH = ['', '', 'zwanzig', 'dreißig', 'vierzig', 'fünfzig', 'sechzig', 'siebzig', 'achtzig', 'neunzig'];
-  function zahlwort(n) {
-    if (n < 20) return EIN[n];
-    if (n < 100) { const e = n % 10; return e ? (e === 1 ? 'ein' : EIN[e]) + 'und' + ZEH[Math.floor(n / 10)] : ZEH[n / 10]; }
-    if (n < 1000) { const hu = Math.floor(n / 100), r = n % 100; return (hu === 1 ? 'ein' : EIN[hu]) + 'hundert' + (r ? zahlwort(r) : ''); }
-    if (n === 1000) return 'eintausend';
-    return String(n);
-  }
-  const fuerStimme = s => s.replace(/\d+/g, m => zahlwort(+m)).replace(/\s*(…|_{2,})\s*/g, ', ').replace(/,\s*([.!?])/g, '$1');
+  // (zahlwort/EIN/ZEH sind weiter unten deklariert – NICHT hier nochmal deklarieren, sonst SyntaxError und alle Apps sind kaputt)
+  const fuerStimme = s => s.replace(/\d+/g, m => +m <= 1000 ? zahlwort(+m) : m).replace(/\s*(…|_{2,})\s*/g, ', ').replace(/,\s*([.!?])/g, '$1');
   function say(text, v = 'a') {
     merke(text, v);
     stopAll();
